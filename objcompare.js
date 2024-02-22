@@ -8,8 +8,18 @@ const object2 = {
   name: "Nitishkumar S",
 };
 
-JSON.stringify(object1) === JSON.stringify(object2);
-// false
+if (Object.keys(object1).length === Object.keys(object2).length) {
+  console.log("same the length value")
 
-console.log(object1, object2);
-// true
+  for (let key in object1) {
+    if (object1[key] === object2[key]) {
+      console.log(key + "same value");
+    }
+    else {
+      console.log(key + "don't have same value");
+    }
+  }
+}
+else {
+  console.log("It's Different");
+}
