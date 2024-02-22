@@ -2,8 +2,8 @@
 	a. let obj1 = {name: "person 1",age:5};
 	b. let obj2 = {age:5,name:"person1"};
 
-Answer : compare the two JSON withoutthe order.
-         So I use stringify JSON method use to solve(I am Refer some online website and i am solve this program)
+Answer : compare the two JSON without the order.
+         So I use stringify JSON method use to solve this the same value (or) different values(I am Refer some online website and i am solve this program)
 
 2. Use the rest countries'API URL -> https://restcountries.com/v3.1/all and display all the country flags in the console
 
